@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  
+}
+
+li,a,button{
+  font-weight: 500;
+  font-size: 20px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252A;
+
+}
+
+.nav_Links{
+  list-style: none;
+}
+
+.nav_Links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_Links li a{
+  transition: all 0.3s ease 0s;
+}
+.nav_Links li a:hover{
+  color: #0088a9;
+}
+
+button{
+  padding: 9px 25px;
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgba(0,136,169,0.4);
+
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+  }
+  footer ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .topinfo{
+    font-size: 18px;
+  }
+  .info{
+    
+    display:inline-table;
+    color: #f44236;
+    padding-left: 180px;
+    margin-top: 25px;
+  }
+  footer{
+    background-color: whitesmoke;
+  }
+  .icons{
+  
+    display:inline;
+    padding-left: 685px;
+  
+  }
+  .icons a{
+    height: 100px;
+    width: 100%;
+    display: inline-flex;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 50px;
+    margin: 10px;
+    box-shadow: 0 10px 10px rgb(0,0,0,0.1);
+  
+    
+    background-size: 100% 200%;
+    background-position: 0% 5% ;
+    transition: background-position 0.5s, color 0.5s;
+  }
+  .icons a:nth-child(1){
+    
+    color: #f44236;
+    background-image: linear-gradient(#fff 50%, #f44236 50%);
+  }
+  .icons a:nth-child(2){
+    
+    color: #1926d3;
+    background-image: linear-gradient(#fff 50%,  #1926d3 50%);
+  }
+  .icons a:nth-child(3){
+    
+    color: #00acee;
+    background-image: linear-gradient(#fff 50%,  #00acee 50%);
+  }
+  .icons a:nth-child(4){
+    
+    color: black;
+    background-image: linear-gradient(#fff 50%,  black 50%);
+  }
+  .icons a:hover{
+    background-position: 0% 100% ;
+    color: #fff;   
+  }
+  main{
+    background-color: #24252A;
+  }
+  p{
+    color: white;
+    font-size: 2vw;
+    font-family: monospace;
+    margin: 0rem;
+    text-transform: uppercase;
+  }
+  #text{
+    margin-left: 700px;
+    margin-right: 700px;
+
+  }
+  .line{
+    display: flex;
+    justify-content: space-between;
+  }
+  #text:has(.fancy:hover) .word:not(.fancy:hover){
+    opacity: 0.2;
+  }
