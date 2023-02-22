@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+}
+
+li,a,button{
+  font-weight: 500;
+  font-size: 20px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252A;
+
+}
+
+.nav_Links{
+  list-style: none;
+}
+
+.nav_Links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_Links li a{
+  transition: all 0.3s ease 0s;
+}
+.nav_Links li a:hover{
+  color: #0088a9;
+}
+
+button{
+  padding: 9px 25px;
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgba(0,136,169,0.4);
+
+}
+/* Note prati go na marto drugiq put */
+#product1{
+  text-align: center;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+#product1 .pro-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+#product1 .pro{
+  width: 10%;
+  min-width: 300px;
+  padding: 10px 12px;
+  border: 1px solid #000000;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+  margin: 15px 10px;
+  transition: 0.2 ease;
+}
+#product1 .pro:hover{
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.1);
+}
+
+#product1 .pro img{
+  width: 100%;
+  border-radius: 20px;
+
+}
+
+#product1 .pro .des{
+  text-align: start;
+  padding: 10px 0;
+}
+
+#product1 .pro .des span{
+  color: #606063;
+  font-size: 12px;
+}
+
+#product1 .pro .des h5{
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size:  14px;
+}
+#product1 .pro .des i{
+  font-size: 12px;
+  color: rgb(243, 181, 25)
+}
+#product1 .pro .des h4{
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #088178;
+}
+
+footer a{
+  color: black;
+  text-decoration: none;
+}
+footer ul li a{
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+.topinfo{
+  font-size: 18px;
+}
+.info{
+  
+  display:inline-table;
+  color: #f44236;
+  padding-left: 180px;
+  margin-top: 25px;
+}
+footer{
+  background-color: whitesmoke;
+}
+.icons{
+
+  display:inline;
+  padding-left: 685px;
+
+}
+.icons a{
+  height: 100px;
+  width: 100%;
+  display: inline-flex;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 50px;
+  margin: 10px;
+  box-shadow: 0 10px 10px rgb(0,0,0,0.1);
+
+  
+  background-size: 100% 200%;
+  background-position: 0% 5% ;
+  transition: background-position 0.5s, color 0.5s;
+}
+.icons a:nth-child(1){
+  
+  color: #f44236;
+  background-image: linear-gradient(#fff 50%, #f44236 50%);
+}
+.icons a:nth-child(2){
+  
+  color: #1926d3;
+  background-image: linear-gradient(#fff 50%,  #1926d3 50%);
+}
+.icons a:nth-child(3){
+  
+  color: #00acee;
+  background-image: linear-gradient(#fff 50%,  #00acee 50%);
+}
+.icons a:nth-child(4){
+  
+  color: black;
+  background-image: linear-gradient(#fff 50%,  black 50%);
+}
+.icons a:hover{
+  background-position: 0% 100% ;
+  color: #fff;   
+}
