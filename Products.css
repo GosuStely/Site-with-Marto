@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
 *{
   box-sizing: border-box;
   margin: 0;
@@ -57,17 +55,19 @@ button:hover{
   text-align: center;
   margin-left: 120px;
   margin-right: 120px;
+
 }
 
 #product1 .pro-container{
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
   padding-top: 20px;
 }
 
 #product1 .pro{
-  width: 10%;
-  min-width: 300px;
+  width: 30%;
+  min-width: 500px;
+  min-height: 300px;
   padding: 10px 12px;
   border: 1px solid #000000;
   border-radius: 25px;
@@ -75,9 +75,34 @@ button:hover{
   box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
   margin: 15px 10px;
   transition: 0.2 ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#product1 .pro h3{
+    
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    
+}
+.category1{
+    background-image: url(/Phone\ pictures/phonebackground.webp);
+    background-size: 100% 100%;
+}
+.category2{
+    background-image: url(/Phone\ pictures/burkanbackground.jpg);
+    background-size: 100% 100%;
+}
+.category3{
+    background-image: url(/Phone\ pictures/vacuumcleanerbackground.jpg);
+    background-size: 100% 100%;
+}
+.category4{
+    background-image: url(/Phone\ pictures/monitorbackground.jpg);
+    background-size: 100% 100%;
 }
 #product1 .pro:hover{
-  box-shadow: 1px 10px 10px 10px rgba(0,0,0,0.1);
+  box-shadow: 20px 20px 20px 20px rgba(0,0,0,0.1);
 }
 
 #product1 .pro img{
@@ -150,7 +175,7 @@ footer{
   text-decoration: none;
   font-size: 50px;
   margin: 10px;
-  box-shadow: 0 30px 30px rgb(0,0,0,0.1);
+  box-shadow: 0 10px 10px rgb(0,0,0,0.1);
 
   
   background-size: 100% 200%;
