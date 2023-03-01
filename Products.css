@@ -101,6 +101,22 @@ button:hover{
     background-image: url(/Phone\ pictures/monitorbackground.jpg);
     background-size: 100% 100%;
 }
+.category5{
+    background-image: url(/Phone\ pictures/proteinbackground.jpg);
+    background-size: 100% 100%;
+}
+.category6{
+    background-image: url(/Phone\ pictures/bookbackground.jpg);
+    background-size: 100% 100%;
+}
+.category7{
+    background-image: url(/Phone\ pictures/laptopbackground.webp);
+    background-size: 100% 100%;
+}
+.category8{
+    background-image: url(/Phone\ pictures/hladilnikbackground.webp);
+    background-size: 100% 100%;
+}
 #product1 .pro:hover{
   box-shadow: 20px 20px 20px 20px rgba(0,0,0,0.1);
 }
